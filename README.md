@@ -2,6 +2,7 @@
 
 ## Try it with Docker
 > **Step 1** - Install Docker Follow instructions at https://docs.docker.com/engine/install/
+
 > **Step 2** - `brew install make`
 
 # run `make help` to see the targets
