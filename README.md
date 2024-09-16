@@ -5,7 +5,7 @@
 Follow instructions at https://docs.docker.com/engine/install/
 > **Step 2** - `brew install make`
 
-# run make help to see the targets
+# run `make help` to see the targets
 Available targets:
 
  - `make build`                builds the image
