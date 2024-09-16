@@ -55,7 +55,7 @@ enter.%:
 network:
 	-$(HIDE)docker network create --attachable -d bridge 8flow > /dev/null 2>&1 || true
 
-## start mongo container
+## start mongo database container
 mongo: network
 	-$(HIDE)docker run -d $(NETWORK) $(ENV) --name=mongo -v $(DOCKER_CONTAINER)-mongo:/data/db mongo@sha256:1ade6afda762cb6a68ba65e83ef305660ef0517d6d4140627211970e85f4588a
 
